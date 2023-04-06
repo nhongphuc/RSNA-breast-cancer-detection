@@ -34,9 +34,9 @@ https://www.kaggle.com/competitions/rsna-breast-cancer-detection.
 ## Modelling
 - We trained 3 models: a Logistic Regression one, a Random Forest one, and a Boosted Gradient one.
 - We used 5-fold cross-validation, with the following parameter searches:
- * for Logistic Regression: 'C',
- * for Random Forest: "min_samples_split", "max_depth", "criterion", "max_features", "bootstrap"
- * for Gradient Boosting: "learning_rate", "learning_rate", "max_depth", "criterion", "max_features"
+  - for Logistic Regression: 'C',
+  - for Random Forest: "min_samples_split", "max_depth", "criterion", "max_features", "bootstrap"
+  - for Gradient Boosting: "learning_rate", "learning_rate", "max_depth", "criterion", "max_features"
 - We used the F1-score as the main performance metric.
 - Logistic Regression has the best F1-score on the test data (0.64). The other two classifiers have mediocre F1-scores (0.26 and 0.35). So we choose Logistic Regression.
 - We also looked at the ROC-AUC for Logistic Regression. The AUC is an excellent 0.91.
