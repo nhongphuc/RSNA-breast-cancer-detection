@@ -37,5 +37,10 @@ https://www.kaggle.com/competitions/rsna-breast-cancer-detection.
 - We used the F1-score as the main performance metric.
 - Logistic Regression has the best F1-score on the test data (0.64). The other two classifiers have mediocre F1-scores (0.26 and 0.35). So we choose Logistic Regression.
 - We also looked at the ROC-AUC for Logistic Regression. The AUC is an excellent 0.91.
+- We also plotted the FPR versus the threshold for Logistic Regression, and saw that for the standard threshold of 0.5, the FPR is lower than the desired 
+value of 0.25.
+
+![alt text](
+https://github.com/nhongphuc/RSNA-breast-cancer-detection/blob/main/LogRegROC.png?raw=true)
 
 ## Conclusion and future improvement
