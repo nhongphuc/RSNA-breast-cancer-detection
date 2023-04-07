@@ -3,8 +3,9 @@
 ![alt text](
 https://github.com/nhongphuc/RSNA-breast-cancer-detection/blob/main/TitlePic.png?raw=true)
 
+The goal of this project is to diagnose breast cancer by training models on screening mammograms. We hope to help radiologists to be more efficient with the diagnosis process. In particular, we hope to achieve a false positive rate (FPR) lower than 25%, because false positives lead to unnecessary, costly medical procedures for the patient. Currently, as many as half of all women experience false positive mammograms over the course of 10 years annual screening:
 
-The goal of this project is to diagnose breast cancer by training models on screening mammograms. We hope to help radiologists to be more efficient with the diagnosis process. In particular, we hope to achieve a false positive rate (FPR) lower than 25%, because false positives lead to unnecessary, costly medical procedures for the patient.
+https://health.ucdavis.edu/news/headlines/half-of-all-women-experience-false-positive-mammograms-after-10-years-of-annual-screening-/2022/03#:~:text=Mammography%20versus%20tomosynthesis%20for%20breast%20cancer%20screening&text=The%20researchers%20estimated%20that%20over,a%20false%20positive%20biopsy%20recommendation.
 
 ## Data
 
